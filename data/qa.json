@@ -1,0 +1,142 @@
+[
+ {
+  "question": "How many days a week can I work from home?",
+  "source": "remote_work.md",
+  "evidence": "up to three days per week"
+ },
+ {
+  "question": "Which hours do I have to be reachable?",
+  "source": "remote_work.md",
+  "evidence": "10:00 to 15:00"
+ },
+ {
+  "question": "What is the budget for a coworking space each month?",
+  "source": "remote_work.md",
+  "evidence": "up to 120 EUR per month"
+ },
+ {
+  "question": "By when do I have to file an expense report?",
+  "source": "expenses.md",
+  "evidence": "within 30 days"
+ },
+ {
+  "question": "What is the dinner allowance on a business trip?",
+  "source": "expenses.md",
+  "evidence": "45 EUR for dinner"
+ },
+ {
+  "question": "When can I fly business class?",
+  "source": "expenses.md",
+  "evidence": "longer than six hours"
+ },
+ {
+  "question": "What is the minimum password length?",
+  "source": "security.md",
+  "evidence": "at least 14 characters"
+ },
+ {
+  "question": "Who do I tell about a suspected security incident, and how fast?",
+  "source": "security.md",
+  "evidence": "within one hour"
+ },
+ {
+  "question": "How often are production access rights reviewed?",
+  "source": "security.md",
+  "evidence": "every quarter"
+ },
+ {
+  "question": "When does my laptop arrive before I start?",
+  "source": "onboarding.md",
+  "evidence": "three days before"
+ },
+ {
+  "question": "How long is the probation period?",
+  "source": "onboarding.md",
+  "evidence": "six months"
+ },
+ {
+  "question": "When does the manager review the 30-60-90 plan?",
+  "source": "onboarding.md",
+  "evidence": "at day 30"
+ },
+ {
+  "question": "How many vacation days do employees get per year?",
+  "source": "leave.md",
+  "evidence": "25 days of paid annual leave"
+ },
+ {
+  "question": "Until when can carried-over leave be used?",
+  "source": "leave.md",
+  "evidence": "expire on March 31"
+ },
+ {
+  "question": "How long is parental leave?",
+  "source": "leave.md",
+  "evidence": "16 weeks at full pay"
+ },
+ {
+  "question": "What is the API rate limit per key?",
+  "source": "routing_api.md",
+  "evidence": "600 requests per minute"
+ },
+ {
+  "question": "How often must API keys be rotated?",
+  "source": "routing_api.md",
+  "evidence": "every 90 days"
+ },
+ {
+  "question": "How long is an idempotency key remembered?",
+  "source": "routing_api.md",
+  "evidence": "remembered for 24 hours"
+ },
+ {
+  "question": "How fast must the on-call engineer respond to a SEV1 page?",
+  "source": "incident_response.md",
+  "evidence": "within 15 minutes"
+ },
+ {
+  "question": "When does the on-call rotation hand over?",
+  "source": "incident_response.md",
+  "evidence": "every Monday at 09:00"
+ },
+ {
+  "question": "When is a postmortem due?",
+  "source": "incident_response.md",
+  "evidence": "within five business days"
+ },
+ {
+  "question": "How long are customer shipment records kept?",
+  "source": "data_retention.md",
+  "evidence": "seven years"
+ },
+ {
+  "question": "How are backups protected?",
+  "source": "data_retention.md",
+  "evidence": "encrypted with AES-256"
+ },
+ {
+  "question": "How quickly are personal data deletion requests handled?",
+  "source": "data_retention.md",
+  "evidence": "within 21 days"
+ },
+ {
+  "question": "What is the CEO's favorite color?",
+  "source": null,
+  "evidence": null
+ },
+ {
+  "question": "Which cloud vendor hosts the staging cluster?",
+  "source": null,
+  "evidence": null
+ },
+ {
+  "question": "How large is the annual performance bonus?",
+  "source": null,
+  "evidence": null
+ },
+ {
+  "question": "What is the stock ticker symbol of the firm?",
+  "source": null,
+  "evidence": null
+ }
+]
