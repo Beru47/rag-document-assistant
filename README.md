@@ -62,7 +62,7 @@ How to read it honestly:
 
 - **Hit@k / MRR**: a retrieved chunk counts only if it comes from the gold file *and* contains the gold evidence phrase.
 - **Faithfulness** is a simple check: the answer has at least one valid citation and at least 60% of its content words appear in the cited chunks. It does not judge semantic correctness.
-- The CI run uses an **extractive stand-in** (it returns the best-matching context sentence with its citation), so the 1.000 faithfulness mostly validates the citation and checking plumbing, not a real LLM. The 3 unanswered questions are false refusals from the coverage gate. Run `python -m rag_assistant.eval --llm openai` (or `anthropic`) with keys set to measure a real model, and `--embeddings minilm` for the real embedding model; those numbers are not reported here because they were not run.
+- The CI run uses an **extractive stand-in** (it returns the best-matching context sentence with its citation), so the 1.000 faithfulness mostly validates the citation and checking plumbing, not a real LLM. The 3 answerable questions that went unanswered are false refusals from the coverage gate. Run `python -m rag_assistant.eval --llm openai` (or `anthropic`) with keys set to measure a real model, and `--embeddings minilm` for the real embedding model; those numbers are not reported here because they were not run.
 - Hashing is a lexical embedder, so on this corpus vector and BM25 behave similarly and hybrid cannot show a gain. A larger, paraphrase-heavy corpus with MiniLM is needed to show the benefit of fusion.
 
 ## Run it
